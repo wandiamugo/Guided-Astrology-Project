@@ -1,0 +1,116 @@
+.hero{
+    background:url(https://images.unsplash.com/photo-1564352969906-8b7f46ba4b8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+    height: 100%;
+}
+.nav-title{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #ffc367;
+    padding: 40px;
+}
+.title {
+    text-align: center;
+    color: #ffc367;
+    font-size: 30px;
+    font-family: 'Monoton', cursive;
+    word-spacing: 10px;
+    padding-top: 25px;
+}
+.border{
+    border: 1px solid #9d9d9d;
+}
+.sign-input{
+    background-color: black;
+    color: #ffc367;
+}
+.column {
+    text-align: center;
+}
+p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+h6 {
+    font: bold;
+    color: #ca994e;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Popup box BEGIN */
+.hover_bkgr_fricc{
+    background:rgba(247, 241, 241, 0.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position: absolute;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: rgb(233, 225, 225);
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* POP UP CSS END */
+
+a, h4, h2, p {
+    color: #1d1d06;
+}
+.footer {
+    background-color: rgb(98, 161, 158);
+    color: #ffc367;
+    position: sticky;
+    padding: 0;
+}
+
+#footer {
+    padding-top: 20px;
+}
+ 
+.hide {
+    opacity: 0;
+}

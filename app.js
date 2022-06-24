@@ -28,4 +28,18 @@ $(document).ready(function () {
     if (lastselectSign === null) {
         $("#last-select").attr("class", "hide");
     };
+
+    //submit function to call api when input is clicked
+    userInput.on("click", function () {
+
+        //variable for user sign input from buttons
+        let userSign = $(this).attr("id");
+        console.log("user selected: " + userSign);
+
+        //sending user sign to localstorage
+        localStorage.setItem("last selected sign: ", userSign);
+
+        //clears previous text data from horoscope
+        $("h4").text("");
+    })    
 });  

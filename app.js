@@ -59,7 +59,30 @@ $(document).ready(function () {
             console.log("horoscope says: " + response.data.description);
             let horoText = response.data.description;
 
-           
+            // axios call to yoda translate
+            axios({
+                method: "POST",
+                url: "https://yodish.p.rapidapi.com/yoda.json",
+                headers: {
+                    "content-type": "application/x-www-form-urlencoded",
+                    "x-rapidapi-host": "yodish.p.rapidapi.com",
+                    "x-rapidapi-key": "eed9ec38e6mshf2212035b9daf72p1f530bjsn578e6c952838",
+                    useQueryString: true,
+                },
+                params: {
+                    text: horoText,
+                },
+                data: {},
+            }).then((response) => {
+                let yodaTranslate = response.data.contents.translated
+                console.log("Yoda says: " + yodaTranslate);
+                localStorage.setItem("text for last horoscope text", userSign + " | " + today + " | " + yodaTranslate);
+
+                $("h4").text(yodaTranslate);
+            }).catch((error) => {
+                console.log("yoda translate error: " + error);
+            });
+
 
         }).catch((err) => {
             console.log("aztro horoscope error: " + err);

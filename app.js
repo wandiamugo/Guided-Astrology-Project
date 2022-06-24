@@ -41,5 +41,29 @@ $(document).ready(function () {
 
         //clears previous text data from horoscope
         $("h4").text("");
-    })    
-});  
+
+    //axios call to aztro horoscope api
+        axios({
+            method: "POST",
+            url: 'https://sameer-kumar-aztro-v1.p.rapidapi.com/',
+            params: { day: 'today', sign: userSign },
+            headers: {
+                'X-RapidAPI-Key': 'eed9ec38e6mshf2212035b9daf72p1f530bjsn578e6c952838',
+                'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com'
+                // useQueryString: true,
+            },
+        }).then((response) => {
+            //bringing response back with json so its understandable
+            JSON.response;
+            //horoscope reading from aztro api
+            console.log("horoscope says: " + response.data.description);
+            let horoText = response.data.description;
+
+           
+
+        }).catch((err) => {
+            console.log("aztro horoscope error: " + err);
+        });
+    });
+
+});

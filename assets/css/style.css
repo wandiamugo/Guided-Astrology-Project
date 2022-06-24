@@ -39,7 +39,7 @@ h6 {
 }
 /* Popup box BEGIN */
 .hover_bkgr_fricc{
-    background:rgba(247, 241, 241, 0.4);
+    background:rgba(17, 16, 16, 0.4);
     cursor:pointer;
     display:none;
     height:100%;
@@ -55,7 +55,7 @@ h6 {
     vertical-align:middle;
 }
 .hover_bkgr_fricc > div {
-    background-color: rgb(233, 225, 225);
+    background-color: rgb(19, 17, 17);
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
     height: auto;
@@ -69,7 +69,7 @@ h6 {
     padding: 15px 5%;
 }
 .popupCloseButton {
-    background-color: #fff;
+    background-color: rgb(22, 18, 18);
     border: 3px solid #999;
     border-radius: 50px;
     cursor: pointer;
@@ -86,7 +86,7 @@ h6 {
     text-align: center;
 }
 .popupCloseButton:hover {
-    background-color: #ccc;
+    background-color: rgb(204, 42, 177);
 }
 .trigger_popup_fricc {
     cursor: pointer;

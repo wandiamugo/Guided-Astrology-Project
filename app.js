@@ -88,5 +88,105 @@ $(document).ready(function () {
             console.log("aztro horoscope error: " + err);
         });
     });
+ //aquarius popup functions
+ $(".aquaTrig").click(function () {
+    $('.aquaHover').show();
+});
+$('.aquaHover').click(function () {
+    $('.aquaHover').hide();
+});
+
+//pisces popup functions
+$(".piscesTrig").click(function () {
+    $('.piscesHover').show();
+});
+$('.piscesHover').click(function () {
+    $('.piscesHover').hide();
+});
+
+//aries popup functions
+$(".ariesTrig").click(function () {
+    $('.ariesHover').show();
+});
+$('.ariesHover').click(function () {
+    $('.ariesHover').hide();
+});
+
+//taurus popup functions
+$(".taurusTrig").click(function () {
+    $('.taurusHover').show();
+});
+$('.taurusHover').click(function () {
+    $('.taurusHover').hide();
+});
+
+//gemini popup functions
+$(".geminiTrig").click(function () {
+    $('.geminiHover').show();
+});
+$('.geminiHover').click(function () {
+    $('.geminiHover').hide();
+});
+
+//cancer popup functions
+$(".cancerTrig").click(function () {
+    $('.cancerHover').show();
+});
+$('.cancerHover').click(function () {
+    $('.cancerHover').hide();
+});
+
+//leo popup functions
+$(".leoTrig").click(function () {
+    $('.leoHover').show();
+});
+$('.leoHover').click(function () {
+    $('.leoHover').hide();
+});
+
+//virgo popup functions
+$(".virgoTrig").click(function () {
+    $('.virgoHover').show();
+});
+$('.virgoHover').click(function () {
+    $('.virgoHover').hide();
+});
+
+//libra popup functions
+$(".libraTrig").click(function () {
+    $('.libraHover').show();
+});
+$('.libraHover').click(function () {
+    $('.libraHover').hide();
+});
+
+//scorpio popup functions
+$(".scorpioTrig").click(function () {
+    $('.scorpioHover').show();
+});
+$('.scorpioHover').click(function () {
+    $('.scorpioHover').hide();
+});
+
+//sagittarius popup functions
+$(".sagittariusTrig").click(function () {
+    $('.sagittariusHover').show();
+});
+$('.sagittariusHover').click(function () {
+    $('.sagittariusHover').hide();
+});
+
+//capricorn popup functions
+$(".capricornTrig").click(function () {
+    $('.capricornHover').show();
+});
+$('.capricornHover').click(function () {
+    $('.capricornHover').hide();
+});
+
+//popup X button, closing button
+$('.popupCloseButton').click(function () {
+    $('.hover_bkgr_fricc').hide();
+});
 
 });

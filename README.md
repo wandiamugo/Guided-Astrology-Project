@@ -11,17 +11,19 @@ http://127.0.0.1:5500/
  !<img src="Stay Guided.jpg" alt="Stay Guided"> 
 
 ## BuiltWith:
-HTML
-CSS
-Bulma
-Materialize
-jQuery
-APIs
+ HTML
+ CSS
+ Bulma
+ Materialize
+ jQuery
+ APIs
+
 ## Resource preferences:
-RapidAPI
-Bulma
-Materialize
-Popup Research
+ RapidAPI
+ Bulma
+ Materialize
+ Popup Research
+ 
 ## Contributors:
 *Wandia Mugo (https://github.com/wandiamugo)
 
